@@ -37,6 +37,15 @@
     }
   }
 }
+@media (max-width: 600px) {
+  .button {
+    &_small-modal {
+      width: 250px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
 @media (max-width: 575px) {
   .button {
     &_headerBtn {

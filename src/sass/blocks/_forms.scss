@@ -33,3 +33,16 @@
     margin-right: auto;
   }
 }
+@media (max-width: 600px) {
+  .feed-form {
+    &_mlr0 {
+      margin-left: 0;
+      margin-right: 0;
+    }
+    .smallWidth {
+      width: 250px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
