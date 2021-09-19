@@ -112,15 +112,10 @@
           Просто заполните форму заявки<br />
           и мы перезвоним вам в течении 10 минут
         </div>
-        <form class="feed-form" action="#">
-          <input name="name" required type="text" placeholder="Ваше имя" />
-          <input
-            name="phone"
-            required
-            type="number"
-            placeholder="Ваше телефон"
-          />
-          <input name="email" required type="email" placeholder="Ваше E-mail" />
+        <form id="consultation-form" class="feed-form" action="#">
+          <input name="name" type="text" placeholder="Ваше имя" />
+          <input name="phone" type="number" placeholder="Ваше телефон" />
+          <input name="email" type="email" placeholder="Ваше E-mail" />
           <button class="button button_submit">заказать кОНСУЛЬТАЦИЮ</button>
         </form>
       </div>
@@ -605,21 +600,18 @@
         <form class="feed-form feed-form_mt25 feed-form_mlr0" action="#">
           <input
             name="name"
-            required
             type="text"
             class="smallWidth"
             placeholder="Ваше имя"
           />
           <input
             name="phone"
-            required
             type="number"
             placeholder="Ваше телефон"
             class="smallWidth"
           />
           <input
             name="email"
-            required
             type="email"
             class="smallWidth"
             placeholder="Ваше E-mail"
@@ -636,21 +628,18 @@
         <form class="feed-form feed-form_mt25 feed-form_mlr0" action="#">
           <input
             name="name"
-            required
             type="text"
             class="smallWidth"
             placeholder="Ваше имя"
           />
           <input
             name="phone"
-            required
             type="number"
             placeholder="Ваше телефон"
             class="smallWidth"
           />
           <input
             name="email"
-            required
             type="email"
             class="smallWidth"
             placeholder="Ваше E-mail"
@@ -677,6 +666,7 @@
       src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
     ></script>
     <script src="js/slick.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>
