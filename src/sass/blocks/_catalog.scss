@@ -140,20 +140,22 @@
         margin-right: 20px;
       }
     }
-    &__list {
+    &__info {
       width: 50%;
       margin-left: 20px;
       padding-right: 20px;
       transition: 0.5s all;
-      padding-left: 0;
       margin-bottom: 0;
-      list-style-type: none;
       transform: translateX(0%);
       position: relative;
       &_active {
         transform: translateX(-100%);
         margin-left: 0px;
       }
+    }
+    &__list {
+      list-style-type: none;
+      padding-left: 0;
       li {
         font-size: 14px;
         font-weight: 300;
@@ -174,6 +176,7 @@
     }
   }
 }
+
 @media (max-width: 917px) {
   .catalog {
     &__content {
